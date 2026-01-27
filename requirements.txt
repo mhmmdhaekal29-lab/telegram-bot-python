@@ -1,0 +1,6 @@
+flask
+python-telegram-bot==20.7
+langchain
+langchain-groq
+requests
+python-dotenv
