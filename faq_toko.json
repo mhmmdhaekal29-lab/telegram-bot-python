@@ -1,0 +1,23 @@
+[
+  {
+    "tag": "jam_operasional",
+    "keywords": ["jam buka", "jam operasional", "buka jam berapa", "sampai jam berapa", "tutup jam berapa"],
+    "answer": "Toko Haekal Elektronik buka setiap hari dari jam 08.00 sampai jam 21.00 WIB."
+  },
+  {
+    "tag": "alamat",
+    "keywords": ["alamat", "lokasi", "di mana", "dimana", "maps", "kajen"],
+    "answer": "Alamat Haekal Elektronik: Kajen, Kabupaten Tegal, Jawa Tengah."
+  },
+  {
+    "tag": "cara_order",
+    "keywords": ["cara order", "cara pesan", "beli bagaimana", "order dimana", "order lewat apa", "pesan lewat apa"],
+    "answer": "Cara order di Haekal Elektronik:\n• Tokopedia\n• Shopee\n• WhatsApp: 085713561651\n• Datang langsung ke alamat kami di Kajen, Kabupaten Tegal."
+  },
+  {
+    "tag": "produk",
+    "keywords": ["jual apa saja", "produk apa saja", "barang apa saja", "Elektronik", "laptop", "aksesoris", "jaringan"],
+    "answer": "Haekal Elektronik menyediakan Elektronik, laptop, aksesoris Elektronik, alat-alat jaringan, dan perlengkapan Elektronik lainnya."
+  }
+
+]
