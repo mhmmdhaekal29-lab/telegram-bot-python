@@ -26,19 +26,20 @@ def get_bot_reply(user_message: str) -> str:
     sapaan = ["halo", "hai", "assalamualaikum", "assalamu'alaikum", "pagi", "siang", "sore", "malam"]
     if any(s in text for s in sapaan):
         return (
-            "Halo, selamat datang di Haekal Elektronik 👋\n"
+            "Halo, selamat datang di Hi Snack 👋\n"
             "Silakan tanya seputar jam operasional, alamat, cara order, atau produk kami."
         )
 
     # 3. Respon kata kasar
-    kata_kasar = ["bodoh", "goblok", "anjing", "bajingan", "kampret", "tai", "bangsat"]
+    kata_kasar = ["bodoh", "goblok", "anjing", "bajingan", "kampret", "tai", "bangsat","asu"]
     if any(k in text for k in kata_kasar):
         return (
             "Mohon gunakan bahasa yang sopan ya 😊"
+            "Kami di sini untuk membantu Anda sebaik mungkin."
         )
 
     # 4. Jawaban default kalau tidak ditemukan
     return (
-        "Maaf, saya belum menemukan informasi itu di database Haekal Elektronik.\n"
+        "Maaf, saya belum menemukan informasi itu di database Hi Snack.\n"
         "Coba tanyakan dengan kalimat lain atau hubungi WhatsApp 085713561651 ya 😊"
     )
